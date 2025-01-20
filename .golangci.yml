@@ -1,0 +1,31 @@
+linters:
+  enable:
+    - errcheck
+    - staticcheck
+    - unused
+    - gosimple
+    - ineffassign
+    - typecheck
+    - gofmt
+    - goimports
+    - misspell
+    - unconvert
+    - gocyclo
+    - dupl
+    - goconst
+    - copyloopvar
+    - govet
+    - lll
+    - nakedret
+    - prealloc
+    - stylecheck
+    - unparam
+    - whitespace
+    - gochecknoinits
+    - gochecknoglobals
+    - nestif
+    - noctx
+    - rowserrcheck
+    - sqlclosecheck
+    - wrapcheck
+    - wsl
