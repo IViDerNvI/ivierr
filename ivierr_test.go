@@ -15,3 +15,9 @@ func TestNew(t *testing.T) {
 		}
 	}
 }
+
+func BenchmarkNew(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		New("foo")
+	}
+}
